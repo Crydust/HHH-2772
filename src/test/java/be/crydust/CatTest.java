@@ -20,14 +20,14 @@ public class CatTest {
                 em = emf.createEntityManager();
 
                 System.out.println("*** works with hibernate and eclipselink");
-                System.out.println("*** \"SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE c.owner = :owner\"");
-                em.createQuery("SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE c.owner = :owner", Cat.class)
+                System.out.println("*** \"SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE kitten.owner = :owner\"");
+                em.createQuery("SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE kitten.owner = :owner", Cat.class)
                         .setParameter("owner", null)
                         .getResultList();
 
                 System.out.println("*** fails with hibernate, works with eclipselink");
-                System.out.println("*** \"SELECT c FROM Cat c LEFT JOIN c.kittens as kitten ON c.owner = :owner\"");
-                em.createQuery("SELECT c FROM Cat c LEFT JOIN c.kittens as kitten ON c.owner = :owner", Cat.class)
+                System.out.println("*** \"SELECT c FROM Cat c LEFT JOIN c.kittens as kitten ON kitten.owner = :owner\"");
+                em.createQuery("SELECT c FROM Cat c LEFT JOIN c.kittens as kitten ON kitten.owner = :owner", Cat.class)
                         .setParameter("owner", null)
                         .getResultList();
 
