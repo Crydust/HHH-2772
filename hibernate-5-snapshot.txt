@@ -38,74 +38,74 @@
 -------------------------------------------------------
 Running be.crydust.CatTest
 *** testHQL
-jul 08, 2014 5:58:47 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+jul 09, 2014 9:36:45 AM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-jul 08, 2014 5:58:47 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+jul 09, 2014 9:36:45 AM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-jul 08, 2014 5:58:47 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+jul 09, 2014 9:36:45 AM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-jul 08, 2014 5:58:47 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+jul 09, 2014 9:36:45 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [
 	name: manager
 	...]
-jul 08, 2014 5:58:47 PM org.hibernate.Version logVersion
+jul 09, 2014 9:36:45 AM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {5.0.0-SNAPSHOT}
-jul 08, 2014 5:58:47 PM org.hibernate.cfg.Environment <clinit>
+jul 09, 2014 9:36:45 AM org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
-jul 08, 2014 5:58:47 PM org.hibernate.cfg.Environment buildBytecodeProvider
+jul 09, 2014 9:36:45 AM org.hibernate.cfg.Environment buildBytecodeProvider
 INFO: HHH000021: Bytecode provider name : javassist
-jul 08, 2014 5:58:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+jul 09, 2014 9:36:45 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
-jul 08, 2014 5:58:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+jul 09, 2014 9:36:45 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1]
-jul 08, 2014 5:58:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+jul 09, 2014 9:36:45 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000046: Connection properties: {user=sa}
-jul 08, 2014 5:58:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+jul 09, 2014 9:36:45 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000006: Autocommit mode: false
-jul 08, 2014 5:58:47 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+jul 09, 2014 9:36:45 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-jul 08, 2014 5:58:47 PM org.hibernate.dialect.Dialect <init>
+jul 09, 2014 9:36:45 AM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-jul 08, 2014 5:58:48 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+jul 09, 2014 9:36:46 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
 INFO: HHH000397: Using ASTQueryTranslatorFactory
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
 INFO: HHH000030: Cleaning up connection pool [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1]
 *** testJPQL
-jul 08, 2014 5:58:48 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+jul 09, 2014 9:36:46 AM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-jul 08, 2014 5:58:48 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+jul 09, 2014 9:36:46 AM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-jul 08, 2014 5:58:48 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+jul 09, 2014 9:36:46 AM org.hibernate.ejb.HibernatePersistence logDeprecation
 WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
-jul 08, 2014 5:58:48 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+jul 09, 2014 9:36:46 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
 INFO: HHH000204: Processing PersistenceUnitInfo [
 	name: manager
 	...]
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1]
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000046: Connection properties: {user=sa}
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000006: Autocommit mode: false
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-jul 08, 2014 5:58:48 PM org.hibernate.dialect.Dialect <init>
+jul 09, 2014 9:36:46 AM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-jul 08, 2014 5:58:48 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+jul 09, 2014 9:36:46 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
 INFO: HHH000397: Using ASTQueryTranslatorFactory
 *** works with hibernate and eclipselink
-*** "SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE c.owner = :owner"
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+*** "SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE kitten.owner = :owner"
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
 WARN: SQL Error: 42102, SQLState: 42S02
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
 ERROR: Table "CAT" not found; SQL statement:
-select cat0_.id as id0_1_, cat0_.name as name1_1_, cat0_.mother_id as mother2_1_, cat0_.owner as owner3_1_ from Cat cat0_ left outer join Cat kittens1_ on cat0_.id=kittens1_.mother_id where cat0_.owner=? [42102-178]
-jul 08, 2014 5:58:48 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
+select cat0_.id as id0_1_, cat0_.name as name1_1_, cat0_.mother_id as mother2_1_, cat0_.owner as owner3_1_ from Cat cat0_ left outer join Cat kittens1_ on cat0_.id=kittens1_.mother_id where kittens1_.owner=? [42102-178]
+jul 09, 2014 9:36:46 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
 INFO: HHH000030: Cleaning up connection pool [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1]
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.744 sec <<< FAILURE!
-testHQL(be.crydust.CatTest)  Time elapsed: 1.501 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.878 sec <<< FAILURE!
+testHQL(be.crydust.CatTest)  Time elapsed: 1.622 sec  <<< ERROR!
 java.lang.reflect.InvocationTargetException
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
@@ -165,7 +165,7 @@ Caused by: org.hibernate.hql.internal.ast.InvalidWithClauseException: with claus
 	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1800)
 	... 34 more
 
-testJPQL(be.crydust.CatTest)  Time elapsed: 0.207 sec  <<< ERROR!
+testJPQL(be.crydust.CatTest)  Time elapsed: 0.219 sec  <<< ERROR!
 javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1763)
 	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1677)
@@ -224,7 +224,7 @@ Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statem
 	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:449)
 	... 30 more
 Caused by: org.h2.jdbc.JdbcSQLException: Table "CAT" not found; SQL statement:
-select cat0_.id as id0_1_, cat0_.name as name1_1_, cat0_.mother_id as mother2_1_, cat0_.owner as owner3_1_ from Cat cat0_ left outer join Cat kittens1_ on cat0_.id=kittens1_.mother_id where cat0_.owner=? [42102-178]
+select cat0_.id as id0_1_, cat0_.name as name1_1_, cat0_.mother_id as mother2_1_, cat0_.owner as owner3_1_ from Cat cat0_ left outer join Cat kittens1_ on cat0_.id=kittens1_.mother_id where kittens1_.owner=? [42102-178]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
 	at org.h2.message.DbException.get(DbException.java:178)
 	at org.h2.message.DbException.get(DbException.java:154)
@@ -260,9 +260,9 @@ Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 4.546 s
-[INFO] Finished at: 2014-07-08T17:58:48+01:00
-[INFO] Final Memory: 15M/226M
+[INFO] Total time: 4.983 s
+[INFO] Finished at: 2014-07-09T09:36:46+01:00
+[INFO] Final Memory: 14M/226M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project HHH-2772: There are test failures.
 [ERROR] 

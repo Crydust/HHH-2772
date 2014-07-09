@@ -40,20 +40,20 @@ Running be.crydust.CatTest
 *** testHQL
 *** eclipselink detected, skipping HQL test
 *** testJPQL
-[EL Info]: 2014-07-08 17:58:37.163--ServerSession(126847244)--EclipseLink, version: Eclipse Persistence Services - 2.5.1.v20130918-f2b9fc5
-[EL Info]: connection: 2014-07-08 17:58:37.36--ServerSession(126847244)--file:/D:/home/kristof/Projects/HHH-2772/target/classes/_manager login successful
-[EL Warning]: 2014-07-08 17:58:37.391--ServerSession(126847244)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.1.v20130918-f2b9fc5): org.eclipse.persistence.exceptions.DatabaseException
+[EL Info]: 2014-07-09 09:36:34.482--ServerSession(1617852084)--EclipseLink, version: Eclipse Persistence Services - 2.5.1.v20130918-f2b9fc5
+[EL Info]: connection: 2014-07-09 09:36:34.696--ServerSession(1617852084)--file:/D:/home/kristof/Projects/HHH-2772/target/classes/_manager login successful
+[EL Warning]: 2014-07-09 09:36:34.727--ServerSession(1617852084)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.1.v20130918-f2b9fc5): org.eclipse.persistence.exceptions.DatabaseException
 Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SEQUENCE" not found; SQL statement:
 DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN' [42102-178]
 Error Code: 42102
 Call: DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
 Query: DataModifyQuery(sql="DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'")
 *** works with hibernate and eclipselink
-*** "SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE c.owner = :owner"
+*** "SELECT c FROM Cat c LEFT JOIN c.kittens as kitten WHERE kitten.owner = :owner"
 *** fails with hibernate, works with eclipselink
-*** "SELECT c FROM Cat c LEFT JOIN c.kittens as kitten ON c.owner = :owner"
-[EL Info]: connection: 2014-07-08 17:58:37.687--ServerSession(126847244)--file:/D:/home/kristof/Projects/HHH-2772/target/classes/_manager logout successful
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.694 sec
+*** "SELECT c FROM Cat c LEFT JOIN c.kittens as kitten ON kitten.owner = :owner"
+[EL Info]: connection: 2014-07-09 09:36:35.026--ServerSession(1617852084)--file:/D:/home/kristof/Projects/HHH-2772/target/classes/_manager logout successful
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.775 sec
 
 Results :
 
@@ -62,7 +62,7 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 4.391 s
-[INFO] Finished at: 2014-07-08T17:58:37+01:00
-[INFO] Final Memory: 20M/232M
+[INFO] Total time: 4.682 s
+[INFO] Finished at: 2014-07-09T09:36:35+01:00
+[INFO] Final Memory: 26M/232M
 [INFO] ------------------------------------------------------------------------
